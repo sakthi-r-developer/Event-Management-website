@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Univent Dashboard</title>
+
+<link rel="stylesheet" href="home.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+
+<body>
+
+<!-- NAVBAR -->
+
+<header class="navbar">
+
+    <div class="logo">
+        <h2>TechIf</h2>
+    </div>
+
+    <div class="user-section">
+        <span id="navbarUser"></span>
+        <button id="logoutBtn">Logout</button>
+    </div>
+
+</header>
+
+<!-- MAIN CONTAINER -->
+
+<div class="container">
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <h4>MAIN</h4>
+
+        <a href="#"><i class="fa-solid fa-house"></i> Home</a>
+
+        <a href="#"><i class="fa-solid fa-calendar"></i> Events</a>
+
+        <a href="#"><i class="fa-solid fa-trophy"></i> Leaderboard</a>
+
+        <a href="#"><i class="fa-solid fa-bullhorn"></i> Announcements</a>
+
+        <h4>ACCOUNT</h4>
+
+        <a href="#"><i class="fa-solid fa-user"></i> Profile</a>
+
+        <a href="#"><i class="fa-solid fa-gear"></i> Settings</a>
+
+        <a href="#"><i class="fa-solid fa-right-from-bracket"></i> Logout</a>
+
+    </aside>
+
+    <!-- CONTENT -->
+
+    <main class="content">
+
+        <!-- HERO -->
+
+        <section class="hero">
+
+            <h1 id="welcomeText"></h1>
+
+            <p>
+                Your one-stop platform for college events,
+                competitions and activities.
+            </p>
+
+            <div class="hero-buttons">
+
+                <button>Browse Events</button>
+
+                <button class="outline-btn">
+                    View Leaderboard
+                </button>
+
+            </div>
+
+        </section>
+
+        <!-- CARDS -->
+
+        <div class="card-container">
+
+            <!-- EVENTS -->
+
+            <div class="card">
+
+                <div class="card-header purple">
+                    Upcoming Events
+                </div>
+
+                <div class="card-body">
+
+                    <p>No upcoming events found.</p>
+
+                </div>
+
+            </div>
+
+            <!-- ANNOUNCEMENTS -->
+
+            <div class="card">
+
+                <div class="card-header orange">
+                    Announcements
+                </div>
+
+                <div class="card-body">
+
+                    <h4>New Event: Tech Fest</h4>
+
+                    <p>
+                        A new event has been announced.
+                    </p>
+
+                    <hr>
+
+                    <h4>Freshers Meetup</h4>
+
+                    <p>
+                        Registration starts today.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- LEADERBOARD -->
+
+        <div class="leaderboard">
+
+            <div class="card-header green">
+                Top Performers
+            </div>
+
+            <table>
+
+                <tr>
+                    <th>Rank</th>
+                    <th>Name</th>
+                    <th>Score</th>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Abhishek</td>
+                    <td>168</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Kruthika</td>
+                    <td>158</td>
+                </tr>
+
+            </table>
+
+        </div>
+
+    </main>
+
+</div>
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div>
+
+        <h3>Univent</h3>
+
+        <p>
+            Event management system for colleges.
+        </p>
+
+    </div>
+
+    <div>
+
+        <h3>Quick Links</h3>
+
+        <p>Home</p>
+        <p>Events</p>
+        <p>Leaderboard</p>
+
+    </div>
+
+    <div>
+
+        <h3>Contact</h3>
+
+        <p>info@techif.com</p>
+        <p>+91 9876543210</p>
+
+    </div>
+
+</footer>
+<script src="home.js"></script>
+</body>
+</html>
