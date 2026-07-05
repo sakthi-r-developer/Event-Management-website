@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin:0;
     padding:0;
@@ -132,4 +133,140 @@ body{
 .register a{
     color:#60a5fa;
     text-decoration:none;
+=======
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    height:100vh;
+
+    /* Background Image */
+    background:url("backgroundimage.jpg")
+    no-repeat center center/cover;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* Glass Card */
+
+.login-box{
+    width:420px;
+    padding:40px;
+
+    background:rgba(255,255,255,0.15);
+
+    backdrop-filter:blur(15px);
+    -webkit-backdrop-filter:blur(15px);
+
+    border:1px solid rgba(255,255,255,0.3);
+
+    border-radius:20px;
+
+    box-shadow:0 8px 32px rgba(0,0,0,0.2);
+}
+
+.login-box h1{
+    text-align:center;
+    color:white;
+    margin-bottom:10px;
+}
+
+.login-box h3{
+    text-align:center;
+    color:white;
+    margin-bottom:30px;
+}
+
+.input-group{
+    margin-bottom:20px;
+}
+
+.input-group label{
+    display:block;
+    margin-bottom:8px;
+    color:white;
+}
+
+.input-group input{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    outline:none;
+
+    background:rgba(255,255,255,0.2);
+    color:white;
+}
+
+.input-group input::placeholder{
+    color:#eee;
+}
+
+.password-box{
+    position:relative;
+}
+
+.password-box input{
+    width:100%;
+    padding:12px;
+    padding-right:45px;
+}
+
+.password-box span{
+    position:absolute;
+    right:15px;
+    top:50%;
+    transform:translateY(-50%);
+    cursor:pointer;
+    font-size:18px;
+}
+
+.options{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:20px;
+    color:white;
+}
+
+.login-btn{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#2563eb;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.login-btn:hover{
+    background:#1d4ed8;
+}
+
+.google-btn{
+    width:100%;
+    margin-top:15px;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:white;
+    cursor:pointer;
+}
+
+.register{
+    text-align:center;
+    margin-top:20px;
+    color:white;
+}
+
+.register a{
+    color:#60a5fa;
+    text-decoration:none;
+>>>>>>> fd8d6aa963f7cc97d1f0627ed0ef432acc3acc90
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -103,4 +104,111 @@
 <script src="register.js"></script>
 
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <link rel="stylesheet" href="registerstyle.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<div class="register-box">
+
+    <h1>TechIf</h1>
+    <h2>Create your account</h2>
+    <p>Join TechIf to participate in college events</p>
+
+    <form id="registerForm">
+
+        <div class="name-row">
+
+            <div>
+                <label>First Name</label>
+                <input type="text" id="firstName"
+                placeholder="Enter your first name">
+            </div>
+
+            <div>
+                <label>Last Name</label>
+                <input type="text" id="lastName"
+                placeholder="Enter your last name">
+            </div>
+
+        </div>
+
+        <label>Email Address</label>
+        <input type="email" id="email"
+        placeholder="Enter your email">
+
+        <label>College / University</label>
+        <input type="text" id="college"
+        placeholder="Enter your college">
+
+        <label>Password</label>
+
+        <div class="password-box">
+            <input type="password"
+            id="password"
+            placeholder="Create a password">
+
+            <i class="fa-solid fa-eye"
+            id="eye1"
+            onclick="togglePassword('password','eye1')">
+            </i>
+        </div>
+
+        <label>Confirm Password</label>
+
+        <div class="password-box">
+            <input type="password"
+            id="confirmPassword"
+            placeholder="Confirm your password">
+
+            <i class="fa-solid fa-eye"
+            id="eye2"
+            onclick="togglePassword('confirmPassword','eye2')">
+            </i>
+        </div>
+
+        <div class="terms">
+
+            <input type="checkbox" id="terms">
+
+            <span>
+                I accept the
+                <a href="#">Terms & Conditions</a>
+                and
+                <a href="#">Privacy Policy</a>
+            </span>
+
+        </div>
+
+        <button type="submit">
+            Register
+        </button>
+
+        <button type="button" class="google-btn">
+            Sign in with Google
+        </button>
+
+        <div class="login-link">
+            Already have an account?
+            <a href="login.html">Login here</a>
+        </div>
+
+    </form>
+
+</div>
+
+<script src="register.js"></script>
+
+</body>
+>>>>>>> fd8d6aa963f7cc97d1f0627ed0ef432acc3acc90
 </html>
