@@ -1,0 +1,198 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#ececf1;
+}
+
+/* NAVBAR */
+
+.navbar{
+    height:70px;
+    background:black;
+    color:white;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:0 30px;
+}
+
+.user-section{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.user-section button{
+    padding:10px 18px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+/* LAYOUT */
+
+.container{
+    display:flex;
+}
+
+/* SIDEBAR */
+
+.sidebar{
+
+    width:240px;
+    min-height:100vh;
+
+    background:#b30000;
+    color:white;
+
+    padding:25px;
+}
+
+.sidebar h4{
+    margin:25px 0 15px;
+}
+
+.sidebar a{
+
+    display:block;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:12px 0;
+}
+
+.sidebar a i{
+    margin-right:10px;
+}
+
+/* CONTENT */
+
+.content{
+
+    flex:1;
+
+    padding:35px;
+}
+
+.content h1{
+
+    margin-bottom:20px;
+}
+
+/* FILTERS */
+
+.filters{
+    margin-bottom:25px;
+}
+
+.filters button{
+
+    padding:10px 18px;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    margin-right:10px;
+}
+
+.filters .active{
+
+    background:#b30000;
+
+    color:white;
+}
+
+/* EVENT GRID */
+
+.event-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(320px,1fr));
+
+    gap:25px;
+}
+
+/* CARD */
+
+.event-card{
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:25px;
+
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+
+    position:relative;
+}
+
+.status{
+
+    position:absolute;
+
+    right:20px;
+    top:20px;
+
+    background:#d4d4d4;
+
+    padding:6px 12px;
+
+    border-radius:20px;
+
+    font-size:12px;
+}
+
+.event-card h2{
+
+    margin-bottom:10px;
+
+    color:#b30000;
+}
+
+.event-card p{
+
+    color:#555;
+}
+
+.event-info{
+
+    margin-top:20px;
+}
+
+.event-info p{
+
+    margin-bottom:10px;
+}
+
+.card-footer{
+
+    margin-top:20px;
+
+    display:flex;
+
+    justify-content:space-between;
+}
+
+.card-footer a{
+
+    color:#b30000;
+
+    text-decoration:none;
+
+    font-weight:bold;
+}
