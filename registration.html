@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Event Registration</title>
+
+<link rel="stylesheet" href="registration.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<script src="registration.js" defer></script>
+
+</head>
+<body>
+
+<header class="navbar">
+
+    <div class="logo">
+        <h2>TechIf</h2>
+    </div>
+
+    <div class="user-section">
+        <span id="navbarUser"></span>
+        <button id="logoutBtn">Logout</button>
+    </div>
+
+</header>
+
+<div class="form-container">
+
+    <div class="form-card">
+
+        <h1>Tech Conference Registration</h1>
+
+        <form id="registrationForm">
+
+            <label>Full Name</label>
+            <input
+                type="text"
+                id="name"
+                required>
+
+            <label>Email</label>
+            <input
+                type="email"
+                id="email"
+                required>
+
+            <label>Phone Number</label>
+            <input
+                type="tel"
+                id="phone"
+                required>
+
+            <label>Department</label>
+            <select id="department">
+
+                <option>CSE</option>
+                <option>IT</option>
+                <option>ECE</option>
+                <option>EEE</option>
+                <option>MECH</option>
+
+            </select>
+
+            <label>Year</label>
+            <select id="year">
+
+                <option>1st Year</option>
+                <option>2nd Year</option>
+                <option>3rd Year</option>
+                <option>4th Year</option>
+
+            </select>
+
+            <label>Team Name</label>
+            <input
+                type="text"
+                id="teamName">
+
+            <button type="submit">
+                Register
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+</body>
+</html>

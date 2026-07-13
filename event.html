@@ -10,6 +10,8 @@
 
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<script src="event.js" defer></script>
 </head>
 
 <body>
@@ -23,8 +25,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     </div>
 
     <div class="user-section">
-        <span>sakthi</span>
-        <button>Logout</button>
+        <span id="navbarUser"></span>
+        <button id="logoutBtn">Logout</button>
     </div>
 
 </header>
@@ -37,35 +39,47 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
     <aside class="sidebar">
 
-        <h4>MAIN</h4>
+    <h4>MAIN</h4>
 
-        <a href="home.html">
-            <i class="fa-solid fa-house"></i> Home
-        </a>
+    <a href="home.html">
+        <i class="fa-solid fa-house"></i> Home
+    </a>
 
-        <a href="event.html">
-            <i class="fa-solid fa-calendar"></i> Events
-        </a>
+    <a href="event.html">
+        <i class="fa-solid fa-calendar"></i> Events
+    </a>
 
-        <a href="#">
-            <i class="fa-solid fa-trophy"></i> Leaderboard
-        </a>
+    <a href="schedule.html">
+        <i class="fa-solid fa-clock"></i> Schedule
+    </a>
 
-        <a href="#">
-            <i class="fa-solid fa-bullhorn"></i> Announcements
-        </a>
+    <a href="gallery.html">
+        <i class="fa-solid fa-image"></i> Gallery
+    </a>
 
-        <h4>ACCOUNT</h4>
+    <a href="leaderboard.html">
+        <i class="fa-solid fa-trophy"></i> Leaderboard
+    </a>
 
-        <a href="#">
-            <i class="fa-solid fa-user"></i> Profile
-        </a>
+    <a href="announcements.html">
+        <i class="fa-solid fa-bullhorn"></i> Announcements
+    </a>
 
-        <a href="#">
-            <i class="fa-solid fa-gear"></i> Settings
-        </a>
+    <h4>ACCOUNT</h4>
 
-    </aside>
+    <a href="profile.html">
+        <i class="fa-solid fa-user"></i> Profile
+    </a>
+
+    <a href="settings.html">
+        <i class="fa-solid fa-gear"></i> Settings
+    </a>
+
+    <a href="contact.html">
+        <i class="fa-solid fa-phone"></i> Contact Us
+    </a>
+
+</aside>
 
     <!-- CONTENT -->
 
@@ -109,11 +123,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
                 <div class="card-footer">
 
-                    <a href="#">
-                        View Details
-                    </a>
 
-                    <a href="#">
+                    <a href="leaderboard.html">
                         Leaderboard
                     </a>
 
@@ -141,11 +152,11 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
                 <div class="card-footer">
 
-                    <a href="#">
+                    <a href="event-details.html">
                         View Details
                     </a>
 
-                    <a href="#">
+                    <a href="registration.html">
                         Register
                     </a>
 
@@ -153,7 +164,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
             </div>
 
-            <div class="event-card">
+            <!-- <div class="event-card">
 
                 <div class="status">
                     Upcoming
@@ -181,7 +192,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
                         Register
                     </a>
 
-                </div>
+                </div> -->
 
             </div>
 

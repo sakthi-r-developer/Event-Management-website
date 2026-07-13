@@ -1,17 +1,17 @@
-console.log("Events Page Loaded");
-
-let username = localStorage.getItem("username");
+let username =
+localStorage.getItem("username");
 
 document.getElementById("navbarUser").innerText =
 username;
 
-// Logout button
+document.getElementById("profileName").innerText =
+username;
+
 document
 .getElementById("logoutBtn")
 .addEventListener("click", function(){
 
     localStorage.removeItem("loggedIn");
-
     localStorage.removeItem("username");
 
     window.location.href =
@@ -19,7 +19,6 @@ document
 
 });
 
-// Check login
 let loggedIn =
 localStorage.getItem("loggedIn");
 

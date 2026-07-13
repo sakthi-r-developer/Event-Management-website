@@ -1,11 +1,9 @@
-console.log("Events Page Loaded");
-
-let username = localStorage.getItem("username");
+let username =
+localStorage.getItem("username");
 
 document.getElementById("navbarUser").innerText =
 username;
 
-// Logout button
 document
 .getElementById("logoutBtn")
 .addEventListener("click", function(){
@@ -16,10 +14,8 @@ document
 
     window.location.href =
     "login.html";
-
 });
 
-// Check login
 let loggedIn =
 localStorage.getItem("loggedIn");
 
@@ -27,5 +23,15 @@ if(loggedIn !== "true"){
 
     window.location.href =
     "login.html";
-
 }
+
+document.getElementById("registrationForm")
+.addEventListener("submit", function(e){
+
+    e.preventDefault();
+
+    alert("Registration Successful!");
+
+    window.location.href = "event-details.html";
+
+});

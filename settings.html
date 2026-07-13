@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Settings - TechIf</title>
+
+<link rel="stylesheet" href="settings.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <div class="logo">
+        <h2>TechIf</h2>
+    </div>
+
+    <div class="user-section">
+        <span id="navbarUser"></span>
+        <button id="logoutBtn">Logout</button>
+    </div>
+
+</header>
+
+<div class="container">
+
+    <aside class="sidebar">
+
+    <h4>MAIN</h4>
+
+    <a href="home.html">
+        <i class="fa-solid fa-house"></i> Home
+    </a>
+
+    <a href="event.html">
+        <i class="fa-solid fa-calendar"></i> Events
+    </a>
+
+    <a href="schedule.html">
+        <i class="fa-solid fa-clock"></i> Schedule
+    </a>
+
+    <a href="gallery.html">
+        <i class="fa-solid fa-image"></i> Gallery
+    </a>
+
+    <a href="leaderboard.html">
+        <i class="fa-solid fa-trophy"></i> Leaderboard
+    </a>
+
+    <a href="announcements.html">
+        <i class="fa-solid fa-bullhorn"></i> Announcements
+    </a>
+
+    <h4>ACCOUNT</h4>
+
+    <a href="profile.html">
+        <i class="fa-solid fa-user"></i> Profile
+    </a>
+
+    <a href="settings.html">
+        <i class="fa-solid fa-gear"></i> Settings
+    </a>
+
+    <a href="contact.html">
+        <i class="fa-solid fa-phone"></i> Contact Us
+    </a>
+
+</aside>
+
+    <main class="content">
+
+        <div class="settings-card">
+
+            <h1>Settings</h1>
+
+            <div class="setting-item">
+
+                <label>Dark Mode</label>
+
+                <input type="checkbox" id="darkMode">
+
+            </div>
+
+            <div class="setting-item">
+
+                <label>Email Notifications</label>
+
+                <input type="checkbox" id="notifications" checked>
+
+            </div>
+
+            <div class="setting-item">
+
+                <label>New Password</label>
+
+                <input type="password" id="newPassword">
+
+            </div>
+
+            <button id="saveBtn">
+                Save Changes
+            </button>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="settings.js"></script>
+
+</body>
+</html>

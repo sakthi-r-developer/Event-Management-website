@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+body.dark{
+    background:#1e1e1e;
+    color:white;
+}
+
+.navbar{
+    background:black;
+    color:white;
+
+    padding:15px 30px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.user-section{
+    display:flex;
+    gap:15px;
+    align-items:center;
+}
+
+#logoutBtn{
+    padding:10px 15px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.container{
+    display:flex;
+}
+
+.sidebar{
+    width:270px;
+    min-height:100vh;
+
+    background:#a00000;
+    color:white;
+
+    padding:25px;
+}
+
+.sidebar a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    margin:18px 0;
+}
+
+.content{
+    flex:1;
+    padding:40px;
+}
+
+.settings-card{
+
+    max-width:600px;
+
+    margin:auto;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+
+body.dark .settings-card{
+    background:#2b2b2b;
+}
+
+.setting-item{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin:25px 0;
+}
+
+.setting-item input[type="password"]{
+    width:250px;
+    padding:10px;
+}
+
+#saveBtn{
+
+    width:100%;
+
+    padding:12px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#a00000;
+
+    color:white;
+
+    cursor:pointer;
+}
