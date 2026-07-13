@@ -9,7 +9,7 @@ body{
     height:100vh;
 
     /* Background Image */
-    background:url("backgroundimage.jpg")
+    background:url("bg.jpg")
     no-repeat center center/cover;
 
     display:flex;
