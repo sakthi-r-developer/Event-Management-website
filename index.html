@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glass Login Page</title>
+<link rel="stylesheet" href="loginstyle.css">
+<script src="loginscript.js" defer></script>
+
+</head>
+<body>
+
+<form id="loginForm" class="login-box">
+
+    <h1>Techif</h1>
+    <h3>Sign in to your account</h3>
+
+    <div class="input-group">
+        <label>Username</label>
+        <input type="text" id="username" placeholder="Enter your username">
+    </div>
+
+    <div class="input-group">
+        <label>Password</label>
+
+        <div class="password-box">
+            <input type="password" id="password" placeholder="Enter your password">
+
+            <span onclick="togglePassword()" id="eye">
+                👁️
+            </span>
+        </div>
+    </div>
+
+    <div class="options">
+        <label>
+            <input type="checkbox">
+            Remember me
+        </label>
+
+        <a href="forget-password.html" style="color:white;">Forgot password?</a>
+    </div>
+
+    <button type="submit" class="login-btn">Login</button>
+
+    <button class="google-btn">
+        Sign in with Google
+    </button>
+
+    <div class="register">
+        Don't have an account?
+        <a href="register.html">Register here</a>
+    </div>
+
+</form>
+
+</body>
